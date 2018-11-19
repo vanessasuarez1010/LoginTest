@@ -16,6 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.openBrowser('')
 WebUI.navigateToUrl('https://www.facebook.com/')
 WebUI.setText(findTestObject('Object Repository/Login/email'), email)
-WebUI.setText(findTestObject('Object Repository/Login/password'), password)
-//WebUI.setEncryptedText(findTestObject('Object Repository/Login/password'), 'CSIUDBwFxU9+YyVMiM4rJA==')
+WebUI.setText(findTestObject('Object Repository/Login/password'),password)
+
+//WebUI.setEncryptedText(findTfindTestObject('Object Repository/Login/password')estObject('Object Repository/Login/password'), 'CSIUDBwFxU9+YyVMiM4rJA==')
 WebUI.click(findTestObject('Object Repository/Login/botonEntrar'), FailureHandling.STOP_ON_FAILURE)

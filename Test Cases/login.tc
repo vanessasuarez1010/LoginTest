@@ -17,6 +17,6 @@
       <description></description>
       <id>3aa18b26-eb16-4874-bfba-4f5c977d1565</id>
       <masked>false</masked>
-      <name>variable</name>
+      <name>password</name>
    </variable>
 </TestCaseEntity>
