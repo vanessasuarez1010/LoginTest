@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="34" tests="3" failures="0" errors="0">
+   <testsuite name="Login" tests="3" failures="0" errors="0" time="34" timestamp="2018-11-19 16:21:52" hostname="AFIL0078$ - AFIL0078" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\KRUGER\\git\\LoginTest\\Reports\\Login\\20181119_162150"/>
+         <property name="logFiles" value="C:\\Users\\KRUGER\\git\\LoginTest\\Reports\\Login\\20181119_162150\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="AFIL0078$ - AFIL0078"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="10.10.120.99"/>
+         <property name="sessionId" value="be01d59a3d28099d62c58ad25be78b82"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2018-11-19 16:21:52 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2018-11-19 16:21:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-19 16:21:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-19 16:21:57 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.facebook.com/' successfully
+
+2018-11-19 16:22:04 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2018-11-19 16:22:04 - [TEST_STEP][PASSED] - setText: Text 'srengifo@kruger.com.ec' is set on object 'Object Repository/Login/email'
+
+2018-11-19 16:22:04 - [MESSAGE][PASSED] - Text 'srengifo@kruger.com.ec' is set on object 'Object Repository/Login/email'
+
+2018-11-19 16:22:04 - [TEST_STEP][PASSED] - setText: Text '1' is set on object 'Object Repository/Login/password'
+
+2018-11-19 16:22:04 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Login/password'
+
+2018-11-19 16:22:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/botonEntrar' is clicked on
+
+2018-11-19 16:22:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/botonEntrar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2018-11-19 16:22:06 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2018-11-19 16:22:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-19 16:22:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-19 16:22:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-19 16:22:08 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.facebook.com/' successfully
+
+2018-11-19 16:22:13 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2018-11-19 16:22:13 - [TEST_STEP][PASSED] - setText: Text 'sindyvanessarengifosuarez@hotmail.com' is set on object 'Object Repository/Login/email'
+
+2018-11-19 16:22:13 - [MESSAGE][PASSED] - Text 'sindyvanessarengifosuarez@hotmail.com' is set on object 'Object Repository/Login/email'
+
+2018-11-19 16:22:13 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/Login/password'
+
+2018-11-19 16:22:13 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Login/password'
+
+2018-11-19 16:22:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/botonEntrar' is clicked on
+
+2018-11-19 16:22:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/botonEntrar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/login" classname="Test Cases/login" status="PASSED">
+         <system-out><![CDATA[2018-11-19 16:22:14 - [TEST_CASE][PASSED] - Test Cases/login: Test Cases/login
+
+2018-11-19 16:22:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-19 16:22:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-19 16:22:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-19 16:22:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://www.facebook.com/' successfully
+
+2018-11-19 16:22:21 - [MESSAGE][PASSED] - Navigate to 'https://www.facebook.com/' successfully
+
+2018-11-19 16:22:21 - [TEST_STEP][PASSED] - setText: Text 'sindyrengifosuarez@hotmail.com' is set on object 'Object Repository/Login/email'
+
+2018-11-19 16:22:21 - [MESSAGE][PASSED] - Text 'sindyrengifosuarez@hotmail.com' is set on object 'Object Repository/Login/email'
+
+2018-11-19 16:22:21 - [TEST_STEP][PASSED] - setText: Text 'vanessa10' is set on object 'Object Repository/Login/password'
+
+2018-11-19 16:22:21 - [MESSAGE][PASSED] - Text 'vanessa10' is set on object 'Object Repository/Login/password'
+
+2018-11-19 16:22:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/botonEntrar' is clicked on
+
+2018-11-19 16:22:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/botonEntrar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-19 16:21:52 - [TEST_SUITE][PASSED] - Login: Test Cases/login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

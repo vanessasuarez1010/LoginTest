@@ -1,0 +1,1787 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-20T15:22:03</date>
+  <millis>1542745323446</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Login</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Login</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Login</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:03</date>
+  <millis>1542745323479</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;AFIL0078$ - 10.10.61.176&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">AFIL0078$ - 10.10.61.176</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:03</date>
+  <millis>1542745323480</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 7 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:03</date>
+  <millis>1542745323481</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;10.10.61.176&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.10.61.176</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:03</date>
+  <millis>1542745323482</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.8.4.14&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.8.4.14</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:03</date>
+  <millis>1542745323947</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/login</property>
+  <property name="source">C:\\Users\\KRUGER\\git\\LoginTest\\Test Cases\\login.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:03</date>
+  <millis>1542745323962</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:03</date>
+  <millis>1542745323964</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;email&amp;apos; is set to srengifo@kruger.com.ec</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:03</date>
+  <millis>1542745323964</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;password&amp;apos; is set to 1</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:04</date>
+  <millis>1542745324503</millis>
+  <sequence>9</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:05</date>
+  <millis>1542745325013</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:05</date>
+  <millis>1542745325020</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:05</date>
+  <millis>1542745325052</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Action delay is set to 0 seconds</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:08</date>
+  <millis>1542745328143</millis>
+  <sequence>14</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;9be68ccbb5428ff3f49145974be12361&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">9be68ccbb5428ff3f49145974be12361</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:08</date>
+  <millis>1542745328168</millis>
+  <sequence>15</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Chrome 70.0.3538.102&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 70.0.3538.102</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:08</date>
+  <millis>1542745328169</millis>
+  <sequence>16</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 7&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 7</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:08</date>
+  <millis>1542745328172</millis>
+  <sequence>17</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;3.7.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:08</date>
+  <millis>1542745328173</millis>
+  <sequence>18</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:08</date>
+  <millis>1542745328174</millis>
+  <sequence>19</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:08</date>
+  <millis>1542745328174</millis>
+  <sequence>20</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:08</date>
+  <millis>1542745328175</millis>
+  <sequence>21</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:08</date>
+  <millis>1542745328205</millis>
+  <sequence>22</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking url</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:08</date>
+  <millis>1542745328207</millis>
+  <sequence>23</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigating to &amp;apos;https://www.facebook.com/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:11</date>
+  <millis>1542745331404</millis>
+  <sequence>24</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://www.facebook.com/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:11</date>
+  <millis>1542745331412</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:11</date>
+  <millis>1542745331413</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:11</date>
+  <millis>1542745331435</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Login/email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:11</date>
+  <millis>1542745331459</millis>
+  <sequence>28</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:11</date>
+  <millis>1542745331459</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:11</date>
+  <millis>1542745331459</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:11</date>
+  <millis>1542745331461</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Login/email&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;email&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:43</date>
+  <millis>1542745363170</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.xpath: //input[@id=&amp;apos;email&amp;apos;]&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:43</date>
+  <millis>1542745363658</millis>
+  <sequence>33</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to set text &amp;apos;srengifo@kruger.com.ec&amp;apos; of object &amp;apos;Object Repository/Login/email&amp;apos; (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute &amp;apos;evaluate&amp;apos; on &amp;apos;Document&amp;apos;: The string &amp;apos;&amp;apos; is not a valid XPath expression.\n  (Session info: chrome=70.0.3538.102)\n  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;AFIL0078&amp;apos;, ip: &amp;apos;10.10.61.176&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\\Windows\\TEMP\\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}\nSession ID: 9be68ccbb5428ff3f49145974be12361\n*** Element info: {Using=xpath, value=})</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">1542745363256.png</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:43</date>
+  <millis>1542745363663</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:43</date>
+  <millis>1542745363665</millis>
+  <sequence>35</sequence>
+  <logger>com.kms.katalon.core.logging.KeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/login FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text &amp;apos;srengifo@kruger.com.ec&amp;apos; of object &amp;apos;Object Repository/Login/email&amp;apos; (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute &amp;apos;evaluate&amp;apos; on &amp;apos;Document&amp;apos;: The string &amp;apos;&amp;apos; is not a valid XPath expression.\n  (Session info: chrome=70.0.3538.102)\n  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;AFIL0078&amp;apos;, ip: &amp;apos;10.10.61.176&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\\Windows\\TEMP\\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}\nSession ID: 9be68ccbb5428ff3f49145974be12361\n*** Element info: {Using=xpath, value=})\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)\r\n\tat Script1542409368806.run(Script1542409368806.groovy:18)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\r\n\tat TempTestSuite1542745320998.run(TempTestSuite1542745320998.groovy:36)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:518)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:384)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:370)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:109)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)\r\n)</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to set text 'srengifo@kruger.com.ec' of object 'Object Repository/Login/email' (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AFIL0078', ip: '10.10.61.176', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 9be68ccbb5428ff3f49145974be12361
+*** Element info: {Using=xpath, value=})</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>setText</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>execute</method>
+      <line>37</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>setText</method>
+      <line>950</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>133</line>
+    </frame>
+    <frame>
+      <class>Script1542409368806</class>
+      <method>run</method>
+      <line>18</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>183</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>108</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>294</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>264</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>256</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>200</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>141</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1542745320998</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>263</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>518</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>507</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>653</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>384</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>process</method>
+      <line>370</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>131</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:43</date>
+  <millis>1542745363680</millis>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/login</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:43</date>
+  <millis>1542745363690</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/login</property>
+  <property name="source">C:\\Users\\KRUGER\\git\\LoginTest\\Test Cases\\login.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:43</date>
+  <millis>1542745363690</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:43</date>
+  <millis>1542745363690</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;email&amp;apos; is set to sindyvanessarengifosuarez@hotmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:43</date>
+  <millis>1542745363690</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;password&amp;apos; is set to 2</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:43</date>
+  <millis>1542745363690</millis>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:43</date>
+  <millis>1542745363701</millis>
+  <sequence>42</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:43</date>
+  <millis>1542745363701</millis>
+  <sequence>43</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:44</date>
+  <millis>1542745364580</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:46</date>
+  <millis>1542745366844</millis>
+  <sequence>46</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;5e0384bbbf65d9f6f21e8b5ea43f867e&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">5e0384bbbf65d9f6f21e8b5ea43f867e</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:46</date>
+  <millis>1542745366882</millis>
+  <sequence>47</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Chrome 70.0.3538.102&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 70.0.3538.102</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:46</date>
+  <millis>1542745366883</millis>
+  <sequence>48</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 7&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 7</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:46</date>
+  <millis>1542745366883</millis>
+  <sequence>49</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;3.7.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:46</date>
+  <millis>1542745366884</millis>
+  <sequence>50</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:46</date>
+  <millis>1542745366884</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:46</date>
+  <millis>1542745366884</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:46</date>
+  <millis>1542745366885</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:46</date>
+  <millis>1542745366885</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking url</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:46</date>
+  <millis>1542745366885</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigating to &amp;apos;https://www.facebook.com/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:47</date>
+  <millis>1542745367880</millis>
+  <sequence>56</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://www.facebook.com/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:47</date>
+  <millis>1542745367881</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:47</date>
+  <millis>1542745367881</millis>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-11-20T15:22:47</date>
+  <millis>1542745367882</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Login/email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:47</date>
+  <millis>1542745367886</millis>
+  <sequence>60</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:47</date>
+  <millis>1542745367886</millis>
+  <sequence>61</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:47</date>
+  <millis>1542745367888</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:22:47</date>
+  <millis>1542745367888</millis>
+  <sequence>63</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Login/email&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;email&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:19</date>
+  <millis>1542745399411</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.xpath: //input[@id=&amp;apos;email&amp;apos;]&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:19</date>
+  <millis>1542745399780</millis>
+  <sequence>65</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to set text &amp;apos;sindyvanessarengifosuarez@hotmail.com&amp;apos; of object &amp;apos;Object Repository/Login/email&amp;apos; (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute &amp;apos;evaluate&amp;apos; on &amp;apos;Document&amp;apos;: The string &amp;apos;&amp;apos; is not a valid XPath expression.\n  (Session info: chrome=70.0.3538.102)\n  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;AFIL0078&amp;apos;, ip: &amp;apos;10.10.61.176&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\\Windows\\TEMP\\scoped_dir6...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}\nSession ID: 5e0384bbbf65d9f6f21e8b5ea43f867e\n*** Element info: {Using=xpath, value=})</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">1542745399470.png</property>
+</record>
+<record>
+  <date>2018-11-20T15:23:19</date>
+  <millis>1542745399781</millis>
+  <sequence>66</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:19</date>
+  <millis>1542745399781</millis>
+  <sequence>67</sequence>
+  <logger>com.kms.katalon.core.logging.KeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/login FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text &amp;apos;sindyvanessarengifosuarez@hotmail.com&amp;apos; of object &amp;apos;Object Repository/Login/email&amp;apos; (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute &amp;apos;evaluate&amp;apos; on &amp;apos;Document&amp;apos;: The string &amp;apos;&amp;apos; is not a valid XPath expression.\n  (Session info: chrome=70.0.3538.102)\n  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;AFIL0078&amp;apos;, ip: &amp;apos;10.10.61.176&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\\Windows\\TEMP\\scoped_dir6...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}\nSession ID: 5e0384bbbf65d9f6f21e8b5ea43f867e\n*** Element info: {Using=xpath, value=})\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)\r\n\tat Script1542409368806.run(Script1542409368806.groovy:18)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\r\n\tat TempTestSuite1542745320998.run(TempTestSuite1542745320998.groovy:36)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:518)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:384)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:370)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:109)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)\r\n)</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to set text 'sindyvanessarengifosuarez@hotmail.com' of object 'Object Repository/Login/email' (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AFIL0078', ip: '10.10.61.176', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Windows\TEMP\scoped_dir6...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 5e0384bbbf65d9f6f21e8b5ea43f867e
+*** Element info: {Using=xpath, value=})</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>setText</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>execute</method>
+      <line>37</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>setText</method>
+      <line>950</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Script1542409368806</class>
+      <method>run</method>
+      <line>18</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>183</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>108</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>294</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>264</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>256</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>200</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>141</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1542745320998</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>263</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>518</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>507</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>653</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>384</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>process</method>
+      <line>370</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>131</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:19</date>
+  <millis>1542745399783</millis>
+  <sequence>68</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/login</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:19</date>
+  <millis>1542745399786</millis>
+  <sequence>69</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/login</property>
+  <property name="source">C:\\Users\\KRUGER\\git\\LoginTest\\Test Cases\\login.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-11-20T15:23:19</date>
+  <millis>1542745399789</millis>
+  <sequence>70</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:19</date>
+  <millis>1542745399790</millis>
+  <sequence>71</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;email&amp;apos; is set to sindyrengifosuarez@hotmail.com</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:19</date>
+  <millis>1542745399790</millis>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;password&amp;apos; is set to vanessa10</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:19</date>
+  <millis>1542745399791</millis>
+  <sequence>73</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-11-20T15:23:19</date>
+  <millis>1542745399791</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Opening browser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:19</date>
+  <millis>1542745399791</millis>
+  <sequence>75</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>A browser is already opened. Closing browser and opening a new one</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:20</date>
+  <millis>1542745400399</millis>
+  <sequence>76</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting &amp;apos;Chrome&amp;apos; driver</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402460</millis>
+  <sequence>78</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;6b5f967ed571d30810cb2b73fb12217a&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">6b5f967ed571d30810cb2b73fb12217a</property>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402522</millis>
+  <sequence>79</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Chrome 70.0.3538.102&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 70.0.3538.102</property>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402525</millis>
+  <sequence>80</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 7&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 7</property>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402526</millis>
+  <sequence>81</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;3.7.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402528</millis>
+  <sequence>82</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402528</millis>
+  <sequence>83</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Browser is opened with url: &amp;apos;&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402529</millis>
+  <sequence>84</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : openBrowser</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402530</millis>
+  <sequence>85</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402531</millis>
+  <sequence>86</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking url</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402532</millis>
+  <sequence>87</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigating to &amp;apos;https://www.facebook.com/&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402954</millis>
+  <sequence>88</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Navigate to &amp;apos;https://www.facebook.com/&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402956</millis>
+  <sequence>89</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : navigateToUrl</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402957</millis>
+  <sequence>90</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : setText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402959</millis>
+  <sequence>91</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Login/email&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402969</millis>
+  <sequence>92</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402970</millis>
+  <sequence>93</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402971</millis>
+  <sequence>94</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:22</date>
+  <millis>1542745402972</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Login/email&amp;apos; located by &amp;apos;By.xpath: //input[@id=&amp;apos;email&amp;apos;]&amp;apos; in &amp;apos;30&amp;apos; second(s)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:54</date>
+  <millis>1542745434584</millis>
+  <sequence>96</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to find the element located by &amp;apos;By.xpath: //input[@id=&amp;apos;email&amp;apos;]&amp;apos;. Please recheck the objects properties to make sure the desired element is located. </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:54</date>
+  <millis>1542745434940</millis>
+  <sequence>97</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to set text &amp;apos;sindyrengifosuarez@hotmail.com&amp;apos; of object &amp;apos;Object Repository/Login/email&amp;apos; (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute &amp;apos;evaluate&amp;apos; on &amp;apos;Document&amp;apos;: The string &amp;apos;&amp;apos; is not a valid XPath expression.\n  (Session info: chrome=70.0.3538.102)\n  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;AFIL0078&amp;apos;, ip: &amp;apos;10.10.61.176&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\\Windows\\TEMP\\scoped_dir8...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}\nSession ID: 6b5f967ed571d30810cb2b73fb12217a\n*** Element info: {Using=xpath, value=})</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="attachment">1542745434642.png</property>
+</record>
+<record>
+  <date>2018-11-20T15:23:54</date>
+  <millis>1542745434941</millis>
+  <sequence>98</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : setText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:54</date>
+  <millis>1542745434948</millis>
+  <sequence>99</sequence>
+  <logger>com.kms.katalon.core.logging.KeywordLogger</logger>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/login FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to set text &amp;apos;sindyrengifosuarez@hotmail.com&amp;apos; of object &amp;apos;Object Repository/Login/email&amp;apos; (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:\nSyntaxError: Failed to execute &amp;apos;evaluate&amp;apos; on &amp;apos;Document&amp;apos;: The string &amp;apos;&amp;apos; is not a valid XPath expression.\n  (Session info: chrome=70.0.3538.102)\n  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: &amp;apos;3.7.1&amp;apos;, revision: &amp;apos;8a0099a&amp;apos;, time: &amp;apos;2017-11-06T21:07:36.161Z&amp;apos;\nSystem info: host: &amp;apos;AFIL0078&amp;apos;, ip: &amp;apos;10.10.61.176&amp;apos;, os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.8.0_181&amp;apos;\nDriver info: com.kms.katalon.selenium.driver.CChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\\Windows\\TEMP\\scoped_dir8...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}\nSession ID: 6b5f967ed571d30810cb2b73fb12217a\n*** Element info: {Using=xpath, value=})\r\n\tat com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)\r\n\tat com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)\r\n\tat com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)\r\n\tat com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)\r\n\tat Script1542409368806.run(Script1542409368806.groovy:18)\r\n\tat com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)\r\n\tat com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)\r\n\tat com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)\r\n\tat com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)\r\n\tat com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)\r\n\tat com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)\r\n\tat TempTestSuite1542745320998.run(TempTestSuite1542745320998.groovy:36)\r\n\tat groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:518)\r\n\tat groovy.lang.GroovyShell.run(GroovyShell.java:507)\r\n\tat groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)\r\n\tat groovy.ui.GroovyMain.run(GroovyMain.java:384)\r\n\tat groovy.ui.GroovyMain.process(GroovyMain.java:370)\r\n\tat groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)\r\n\tat groovy.ui.GroovyMain.main(GroovyMain.java:109)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)\r\n\tat org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)\r\n)</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to set text 'sindyrengifosuarez@hotmail.com' of object 'Object Repository/Login/email' (Root cause: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression  because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '' is not a valid XPath expression.
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'AFIL0078', ip: '10.10.61.176', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Windows\TEMP\scoped_dir8...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 6b5f967ed571d30810cb2b73fb12217a
+*** Element info: {Using=xpath, value=})</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>stepFailed</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain</class>
+      <method>runKeyword</method>
+      <line>27</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>setText</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword</class>
+      <method>execute</method>
+      <line>37</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>53</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords</class>
+      <method>setText</method>
+      <line>950</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Script1542409368806</class>
+      <method>run</method>
+      <line>18</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>183</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>108</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>294</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>264</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>256</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>200</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>142</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.CallSiteArray</class>
+      <method>defaultCall</method>
+      <line>48</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.runtime.callsite.AbstractCallSite</class>
+      <method>call</method>
+      <line>141</line>
+    </frame>
+    <frame>
+      <class>TempTestSuite1542745320998</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>runScriptOrMainOrTestOrRunnable</method>
+      <line>263</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>518</line>
+    </frame>
+    <frame>
+      <class>groovy.lang.GroovyShell</class>
+      <method>run</method>
+      <line>507</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processOnce</method>
+      <line>653</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>run</method>
+      <line>384</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>process</method>
+      <line>370</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>processArgs</method>
+      <line>129</line>
+    </frame>
+    <frame>
+      <class>groovy.ui.GroovyMain</class>
+      <method>main</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke0</method>
+    </frame>
+    <frame>
+      <class>sun.reflect.NativeMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>62</line>
+    </frame>
+    <frame>
+      <class>sun.reflect.DelegatingMethodAccessorImpl</class>
+      <method>invoke</method>
+      <line>43</line>
+    </frame>
+    <frame>
+      <class>java.lang.reflect.Method</class>
+      <method>invoke</method>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>rootLoader</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>org.codehaus.groovy.tools.GroovyStarter</class>
+      <method>main</method>
+      <line>131</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:54</date>
+  <millis>1542745434948</millis>
+  <sequence>100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/login</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-11-20T15:23:55</date>
+  <millis>1542745435574</millis>
+  <sequence>101</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Login</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>
